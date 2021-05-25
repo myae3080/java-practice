@@ -1,3 +1,5 @@
 .idea
-.out
+
+/out
+
 java_practice.iml
