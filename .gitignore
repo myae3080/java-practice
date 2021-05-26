@@ -3,3 +3,7 @@
 /out
 
 java_practice.iml
+
+# git cmd file
+gitpull.bat
+gitpush.bat
