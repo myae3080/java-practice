@@ -1,11 +1,11 @@
 package practice1;
 
-public class Espresso extends Coffee {
+public class CafeLatte extends Latte {
 
     //================================================================================================================
     // constructor
     //================================================================================================================
-    public Espresso(String coffeeBean) {
+    public CafeLatte(String coffeeBean) {
         super(coffeeBean);
     }
 }

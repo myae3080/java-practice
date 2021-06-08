@@ -1,32 +1,35 @@
 package practice1;
 
-public class Coffee {
+public class Latte extends Coffee {
     //================================================================================================================
     // member variable
     //================================================================================================================
-    private final String coffeeBean;
-    private int water;
+    private int milk;
 
     //================================================================================================================
     // constructor
     //================================================================================================================
-    public Coffee(String coffeeBean) {
-        this.coffeeBean = coffeeBean;
+    public Latte(String coffeeBean) {
+        super(coffeeBean);
     }
 
     //================================================================================================================
     // getter or setter
     //================================================================================================================
-    public String getCoffeeBean() {
-        return coffeeBean;
+    public int getMilk() {
+        return milk;
     }
 
-    public int getWater() {
-        return water;
+    public void setMilk(int milk) {
+        this.milk = milk;
     }
 
-    public void setWater(int water) {
-        // java에서는 member 변수에는 this를 붙여주는 편.
-        this.water = water;
+    //================================================================================================================
+    // method
+    //================================================================================================================
+    public void stir(int water, int milk) {
+        // method의 경우, this를 붙이지 않는 경향.
+        setWater(water);
+        setMilk(milk);
     }
 }
