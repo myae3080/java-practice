@@ -1,6 +1,7 @@
 .idea
 
 /out
+/src/db_practice
 
 java_practice.iml
 
